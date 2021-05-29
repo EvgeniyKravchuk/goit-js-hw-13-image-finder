@@ -1,0 +1,42 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-card {
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.photo-card img {
+  width: 300px;
+  height: 200px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 10px;
+}
+
+.stats-item {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 70px;
+  min-height: 70px;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: aquamarine;
+
+  margin: 0;
+
+  border-radius: 30%;
+}

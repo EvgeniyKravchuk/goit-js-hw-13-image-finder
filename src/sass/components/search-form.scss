@@ -1,0 +1,53 @@
+body {
+  padding: 20px;
+}
+
+.search-form {
+  text-align: center;
+}
+
+.search-form input {
+  text-align: center;
+  width: 300px;
+  height: 30px;
+}
+
+.search-form-buttons {
+  text-align: center;
+
+  margin-top: 20px;
+}
+
+.load-more-button {
+  text-align: center;
+}
+
+button[data-action='search'] {
+  text-align: center;
+  width: 100px;
+  height: 50px;
+
+  border-radius: 10px;
+
+  background-color: aquamarine;
+}
+
+button[data-action='clear'] {
+  text-align: center;
+  width: 100px;
+  height: 50px;
+
+  border-radius: 10px;
+
+  background-color: aquamarine;
+}
+
+button[data-action='load-more'] {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+
+  border-radius: 10px;
+
+  background-color: aquamarine;
+}
